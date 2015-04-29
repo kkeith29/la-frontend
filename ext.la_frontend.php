@@ -4,11 +4,11 @@ define('LA_FRONTEND_DIR',dirname(__FILE__) . '/');
 
 include LA_FRONTEND_DIR . 'classes/la_frontend.php';
 
-class Lb_frontend_ext {
+class La_frontend_ext {
 
 	private static $instances = array();
 
-	public $name           = 'LB Frontend Helper';
+	public $name           = 'LA Frontend Helper';
 	public $version        = '1.0.0';
 	public $description    = 'Provides tools for asset management and html document generation';
 	public $docs_url       = '';
@@ -36,7 +36,7 @@ class Lb_frontend_ext {
 			)
 		));
 		ee()->dbforge->add_key('id',true);
-		ee()->dbforge->create_table('lb_sessions');
+		ee()->dbforge->create_table('la_sessions');
 		
 		ee()->db->insert('extensions',array(
 			'class'    => __CLASS__,
@@ -58,7 +58,7 @@ class Lb_frontend_ext {
 		ee()->db->delete('extensions');
 		
 		ee()->load->dbforge();
-		ee()->dbforge->drop_table('lb_sessions');
+		ee()->dbforge->drop_table('la_sessions');
 	}
 
 	public function handle_template( $template,$sub,$site_id ) {

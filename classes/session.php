@@ -4,8 +4,8 @@ namespace la_frontend;
 
 class session {
 
-	const table   = 'exp_lb_sessions';
-	const cookie  = 'lb_session';
+	const table   = 'exp_la_sessions';
+	const cookie  = 'la_session';
 	const max_age = 3600;
 
 	private $session_id = false;
