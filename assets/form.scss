@@ -1,0 +1,96 @@
+.m-lb-form {
+	.s-clear {
+		clear: both;
+	}
+	.c-lf-hidden-fields {
+		display: none;
+	}
+	.c-lf-errors {
+		margin-bottom: 12px;
+	}
+		.c-lfe-title {
+			margin-bottom: 5px;
+			color: #FF0000;
+		}
+		.c-lfe-list {
+			margin: 0 0 15px;
+			padding: 0 0 0 15px;
+		}
+			.c-lfel-error {
+				margin: 0 0 3px 15px;
+			}
+	.c-lf-field {
+		margin-bottom: 10px;
+		&.t-left {
+			float: left;
+			margin-right: 15px;
+		}
+		&.t-right {
+			float: right;
+			margin-left: 15px;
+		}
+		&.t-last-h {
+			margin-right: 0;
+		}
+		&.t-last-v {
+			margin-bottom: 0;
+		}
+	}
+		.c-lff-label {
+			margin-bottom: 6px;
+			&.t-left {
+				float: left;
+				margin-right: 15px;
+				margin-bottom: 0;
+			}
+			&.t-right {
+				float: right;
+				margin-left: 15px;
+				margin-bottom: 0;
+			}
+		}
+			.c-lffl-required-marker {
+				color: #FF0000;
+				margin-left: 4px;
+			}
+		.c-lff-element {
+			&.t-left {
+				float: left;
+				margin-right: 5px;
+			}
+			&.t-right {
+				float: right;
+				margin-left: 5px;
+			}
+		}
+			.c-lffe-column {
+				float: left;
+				padding-right: 20px;
+			}
+				.c-lffec-element {
+					float: left;
+					margin: 0 5px 8px 0;
+				}
+				.c-lffec-label {
+					float: left;
+					margin-bottom: 5px;
+				}
+	.s-input-text {
+		
+	}
+	.s-input-checkbox {
+		
+	}
+	.s-input-radio {
+		
+	}
+	.s-input-submit {
+		
+	}
+	.s-select {
+		
+	}
+	.s-textarea {
+		
+	}
+}
